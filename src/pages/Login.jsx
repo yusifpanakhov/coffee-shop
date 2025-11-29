@@ -20,6 +20,10 @@ export default function Login() {
 
   return (
 
+  
+
+
+
     <div className="flex items-center justify-center min-h-screen bg-[#F9F8F6]">
       <form
         onSubmit={handleSubmit}
@@ -62,7 +66,7 @@ export default function Login() {
         </div>
         <button
           type="submit"
-          className="w-full bg-[#006442] hover:bg-[#004d35] text-white font-bold py-3 rounded-xl shadow-lg transition transform hover:scale-105"
+          className="w-full bg-[#006442] hover:bg-[#004d35] text-white font-bold py-3 rounded-xl shadow-lg transition transform hover:scale-110"
         >
           Login
         </button>
