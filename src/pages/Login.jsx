@@ -9,9 +9,9 @@ export default function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (username === "admin" && password === "admin") {
+    if (username === "admin" && password === "admin123") {
       navigate("/admin");
-    } if (username === "user" && password === "user") {
+    } if (username === "user" && password === "user123") {
       navigate("/user");
     } else {
       setError("Username or password incorrect!");
@@ -72,8 +72,8 @@ export default function Login() {
         </button>
         <p className="mt-4 text-center text-[#6B4C3B] text-sm">
           HESABLAR helelik qalacaq burda bunlar narahat olmayin: <br />
-          Admin - admin/admin <br />
-          User - user/user
+          Admin - admin/admin123 <br />
+          User - user/user123
         </p>
       </form>
     </div>
