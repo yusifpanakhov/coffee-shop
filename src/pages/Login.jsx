@@ -70,11 +70,7 @@ export default function Login() {
         >
           Login
         </button>
-        <p className="mt-4 text-center text-[#6B4C3B] text-sm">
-          HESABLAR helelik qalacaq burda bunlar narahat olmayin: <br />
-          Admin - admin/admin123 <br />
-          User - user/user123
-        </p>
+       
       </form>
     </div>
   );
